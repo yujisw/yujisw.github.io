@@ -10,7 +10,7 @@ export const grantData: Grant[] = [
   {
     date: "Apr 2021 - Mar 2022",
     title: "JEES·Softbank AI Scholarship",
-    description: "1000,000 JPY / Apporox 9,000 USD at the time",
+    description: "1,000,000 JPY / Approx 9,000 USD at the time",
     link: "https://www.softbank.jp/corp/news/info/2020/20201016_01/",
   },
 ];
