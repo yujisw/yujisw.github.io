@@ -10,17 +10,18 @@ export interface Education {
 export const educationData: Education[] = [
   // If you don't want to show education, just make the array empty.
   {
-    year: "2021—Present",
-    institution: "Stanford University",
-    degree: "Ph.D. in Computer Science",
-    advisor: "Prof. Sarah Johnson",
+    year: "2021—2023",
+    institution: "Waseda University",
+    degree: "Master of Engineering in Computer Science",
+    thesis: "End-to-End Length Controllable Summarization using Soft Information Masking（Original Title: 指定要約長に応じたソフトな内容選択による要約長操作可能なEnd-to-End要約）",
+    advisor: "Prof. Yoshihiko Hayashi and Prof. Tetsunori Kobayashi",
   },
   {
     year: "2017—2021",
-    institution: "Massachusetts Institute of Technology",
-    degree: "B.S. in Computer Science and Mathematics",
-    thesis: "Algorithmic Approaches to Causal Discovery",
-    // Optional links to thesis
-    // thesisUrl: "https://dspace.mit.edu/handle/1721.1/149111"
+    institution: "Waseda University",
+    degree: "Bachelor of Engineering in Computer Science",
+    thesis: "Evaluating the Effects of Embedding with Speaker Identity Information in Dialogue Summarization",
+    advisor: "Prof. Tetsuya Sakai",
+    thesisUrl: "https://aclanthology.org/2022.lrec-1.31/"
   },
 ];

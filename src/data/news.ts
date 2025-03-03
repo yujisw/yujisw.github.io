@@ -7,10 +7,10 @@ export interface News {
 
 export const newsData: News[] = [
   // If you don't want to show news, just make the array empty.
-  /*{
-    date: "March 2024",
-    title: "Paper accepted at ICML 2024",
-    description: "Our work on causal discovery in time series data has been accepted at ICML 2024.",
-    link: "https://icml.cc/",
-  }*/
+  // {
+  //   date: "Dec 2024",
+  //   title: "Paper accepted at ICLR 2025",
+  //   description: "Our work on discovering key indicators in task arithmetic has been accepted at ICLR 2025.",
+  //   link: "https://openreview.net/forum?id=1VwWi6zbxs",
+  // },
 ];
