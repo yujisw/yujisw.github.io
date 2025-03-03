@@ -1,7 +1,7 @@
 import { EducationEntry } from "@/components/education-entry";
 import { educationData } from "@/data/education";
 import { PublicationEntry } from "@/components/publication-entry";
-import { publicationData } from "@/data/publication";
+import { publicationData, preprintData, nonRefereedPublicationData } from "@/data/publication";
 import { ProfileSection } from "@/components/profile-section";
 import { aboutMe } from "@/data/aboutme";
 import { NewsEntry } from "@/components/news-entry";
@@ -11,6 +11,8 @@ import { experienceData } from "@/data/experience";
 import { PortfolioEntry } from "@/components/portfolio-entry";
 import { portfolioData } from "@/data/portfolio";
 import { sectionOrder, Section } from "@/data/section-order";
+import { grantData } from "@/data/grant";
+import { GrantEntry } from "@/components/grant-entry";
 
 export default function Home() {
   return (
@@ -60,6 +62,23 @@ export default function Home() {
                       </section>
                     )
                   );
+                case Section.Grant:
+                  return (
+                    grantData.length > 0 && (
+                      <section key={sectionName}>
+                        <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
+                          Grants
+                        </h2>
+                        <div className="space-y-12">
+                          {grantData.map((grant, index) => (
+                            <div key={index}>
+                              <GrantEntry grant={grant} />
+                            </div>
+                          ))}
+                        </div>
+                      </section>
+                    )
+                  );
                 case Section.Education:
                   return (
                     educationData.length > 0 && (
@@ -87,6 +106,46 @@ export default function Home() {
                             <div key={index}>
                               <PublicationEntry publication={publication} />
                               {index < publicationData.length - 1 && (
+                                <div className="h-px bg-zinc-200 my-8" />
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      </section>
+                    )
+                  );
+                case Section.Preprint:
+                  return (
+                    preprintData.length > 0 && (
+                      <section key={sectionName}>
+                        <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
+                          Preprints
+                        </h2>
+                        <div className="space-y-12">
+                          {preprintData.map((publication, index) => (
+                            <div key={index}>
+                              <PublicationEntry publication={publication} />
+                              {index < preprintData.length - 1 && (
+                                <div className="h-px bg-zinc-200 my-8" />
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      </section>
+                    )
+                  );
+                case Section.NonRefereedPublication:
+                  return (
+                    nonRefereedPublicationData.length > 0 && (
+                      <section key={sectionName}>
+                        <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
+                          Non-Refereed Publications
+                        </h2>
+                        <div className="space-y-12">
+                          {nonRefereedPublicationData.map((publication, index) => (
+                            <div key={index}>
+                              <PublicationEntry publication={publication} />
+                              {index < nonRefereedPublicationData.length - 1 && (
                                 <div className="h-px bg-zinc-200 my-8" />
                               )}
                             </div>
