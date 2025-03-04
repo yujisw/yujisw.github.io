@@ -33,7 +33,7 @@ export const publicationData: Publication[] = [
   },
   {
     year: "2024",
-    conference: "NeurIPS 2024 Workshop: <a href='https://sites.google.com/view/neurips2024-ftw/home'>Fine-Tuning in Modern Machine Learning: Principles and Scalability (FITML)</a>",
+    conference: "NeurIPS 2024 Workshop: Fine-Tuning in Modern Machine Learning: Principles and Scalability (FITML)",
     title: "Mastering Task Arithmetic: τJp as a Key Indicator for Weight Disentanglement",
     authors: "Kotaro Yoshida, Yuji Naraki, Takafumi Horie, Ryosuke Yamaki, Ryotaro Shimizu, Yuki Saito, Julian McAuley, Hiroki Naganuma",
     paperUrl: "https://openreview.net/forum?id=uvTDEA2z5f",
