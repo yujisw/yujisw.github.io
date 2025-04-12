@@ -23,7 +23,7 @@ export const aboutMe: AboutMe = {
   institution: "LegalOn Technologies, Inc.",
   // Note that links work in the description
   description:
-    "I'm a machine learning engineer and researcher based in Tokyo, Japan. My research focuses on model editing and natural language processing. I'm also interested in applying these methods to real-world problems.",
+    "I'm a Machine Learning Engineer and Researcher based in Tokyo, Japan, with a focus on model editing and natural language processing. I'm passionate about bridging cutting-edge research with real-world applications, and I take pride in owning projects from start to finish. I'm also highly interested in technologies related to Personalized Companion Agents — interactive systems that engage naturally with humans. I thrive in collaborative environments and enjoy continuously learning new technologies and tools to solve complex problems.",
   email: "yuji.1277@gmail.com",
   imageUrl: "/images/masters_graduation.jpg",
   googleScholarUrl: "https://scholar.google.com/citations?user=EF1IHQkAAAAJ",
