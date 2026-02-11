@@ -25,11 +25,32 @@ export const preprintData: Publication[] = [
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
+    year: "2026",
+    conference: "The 14th International Conference on Learning Representations (ICLR)",
+    title: "DisTaC: Conditioning Task Vectors via Distillation for Robust Model Merging",
+    authors: "Kotaro Yoshida, Yuji Naraki, Takafumi Horie, Ryotaro Shimizu, Hiroki Naganuma",
+    paperUrl: "https://openreview.net/forum?id=W70w5JCzdq",
+  },
+  {
+    year: "2026",
+    conference: "The 14th International Conference on Learning Representations (ICLR)",
+    title: "On Fairness of Task Arithmetic: The Role of Task Vectors",
+    authors: "Hiroki Naganuma*, Kotaro Yoshida*, Laura Gomezjurado Gonzalez*, Takafumi Horie, Yuji Naraki, Ryotaro Shimizu",
+    paperUrl: "https://openreview.net/forum?id=B19MBDrvlM",
+  },
+  {
     year: "2025",
-    conference: "International Conference on Learning Representations (ICLR) 2025",
+    conference: "The 13th International Conference on Learning Representations (ICLR)",
     title: "Mastering Task Arithmetic: τJp as a Key Indicator for Weight Disentanglement",
     authors: "Kotaro Yoshida, Yuji Naraki, Takafumi Horie, Ryosuke Yamaki, Ryotaro Shimizu, Yuki Saito, Julian McAuley, Hiroki Naganuma",
     paperUrl: "https://openreview.net/forum?id=1VwWi6zbxs",
+  },
+  {
+    year: "2025",
+    conference: "NeurIPS 2025 Workshop on Reliable ML from Unreliable Data",
+    title: "On Fairness of Task Arithmetic: The Role of Task Vectors",
+    authors: "Hiroki Naganuma*, Kotaro Yoshida*, Laura Gomezjurado Gonzalez*, Takafumi Horie, Yuji Naraki, Ryotaro Shimizu",
+    paperUrl: "https://openreview.net/forum?id=nAb0PEDDbS",
   },
   {
     year: "2024",
