@@ -20,7 +20,7 @@ export interface AboutMe {
 export const aboutMe: AboutMe = {
   name: "Yuji Naraki",
   title: "Research Engineer in Tokyo, Japan",
-  institution: "LegalOn Technologies, Inc.",
+  institution: "Cierpa & Company, Inc.",
   // Note that links work in the description
   description:
     "I'm a Machine Learning Engineer and Researcher based in Tokyo, Japan, with a focus on model editing and natural language processing. I'm passionate about bridging cutting-edge research with real-world applications, and I take pride in owning projects from start to finish. I'm also highly interested in technologies related to Personalized Companion Agents — interactive systems that engage naturally with humans. I thrive in collaborative environments and enjoy continuously learning new technologies and tools to solve complex problems.",
@@ -32,7 +32,7 @@ export const aboutMe: AboutMe = {
   twitterUsername: "yuji_research",
   // blogUrl: "https://",
   // cvUrl: "https://",
-  institutionUrl: "https://legalontech.jp/",
+  institutionUrl: "https://cierpa.co.jp/",
   // altName: "",
   // secretDescription: "I like dogs.",
 };

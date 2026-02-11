@@ -10,7 +10,13 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
   {
-    date: "Apr 2023 - Present",
+    date: "Oct 2025 - Present",
+    title: "ML Research Engineer",
+    company: "Cierpa & Company, Inc.",
+    companyUrl: "https://cierpa.co.jp/"
+  },
+  {
+    date: "Apr 2023 - Sep 2025",
     title: "ML Research Engineer",
     company: "LegalOn Technologies, Inc. (formerly LegalForce, Inc.)",
     description: `Developed stateless APIs using ML models for legal document analysis.
