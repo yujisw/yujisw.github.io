@@ -40,7 +40,7 @@ export const publicationData: Publication[] = [
   },
   {
     year: "2026",
-    conference: "The 15th Conference on Language Resources and Evaluation (LREC 2026)",
+    conference: "LREC 2026",
     title: "LegalRikai: Open Benchmark -- Benchmark for Complex Japanese Corporate Legal Tasks",
     authors: "Shogo Fujita, Yuji Naraki, Yiqing Zhu, Shinsuke Mori",
     paperUrl: "https://arxiv.org/abs/2512.11297",
