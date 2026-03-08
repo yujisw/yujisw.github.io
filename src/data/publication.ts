@@ -39,6 +39,13 @@ export const publicationData: Publication[] = [
     paperUrl: "https://openreview.net/forum?id=B19MBDrvlM",
   },
   {
+    year: "2026",
+    conference: "The 15th Conference on Language Resources and Evaluation (LREC 2026)",
+    title: "LegalRikai: Open Benchmark -- Benchmark for Complex Japanese Corporate Legal Tasks",
+    authors: "Shogo Fujita, Yuji Naraki, Yiqing Zhu, Shinsuke Mori",
+    paperUrl: "https://arxiv.org/abs/2512.11297",
+  },
+  {
     year: "2025",
     conference: "The 13th International Conference on Learning Representations (ICLR)",
     title: "Mastering Task Arithmetic: τJp as a Key Indicator for Weight Disentanglement",
