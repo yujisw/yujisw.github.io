@@ -40,7 +40,7 @@ export const publicationData: Publication[] = [
   },
   {
     year: "2026",
-    conference: "LREC 2026",
+    conference: "The 2026 International Conference on Language Resources and Evaluation (LREC2026)",
     title: "LegalRikai: Open Benchmark -- Benchmark for Complex Japanese Corporate Legal Tasks",
     authors: "Shogo Fujita, Yuji Naraki, Yiqing Zhu, Shinsuke Mori",
     paperUrl: "https://arxiv.org/abs/2512.11297",
@@ -68,7 +68,7 @@ export const publicationData: Publication[] = [
   },
   {
     year: "2022",
-    conference: "The 13th Conference on Language Resources and Evaluation",
+    conference: "The 2022 International Conference on Language Resources and Evaluation (LREC2022)",
     title: "Evaluating the Effects of Embedding with Speaker Identity Information in Dialogue Summarization",
     authors: "Yuji NARAKI, Tetsuya SAKAI, Yoshihiko HAYASHI",
   },
