@@ -68,7 +68,7 @@ export const publicationData: Publication[] = [
   },
   {
     year: "2022",
-    conference: "The 2022 International Conference on Language Resources and Evaluation (LREC2022)",
+    conference: "The 2022 International Conference on Language Resources and Evaluation (LREC)",
     title: "Evaluating the Effects of Embedding with Speaker Identity Information in Dialogue Summarization",
     authors: "Yuji NARAKI, Tetsuya SAKAI, Yoshihiko HAYASHI",
   },
