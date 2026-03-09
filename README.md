@@ -86,6 +86,22 @@ npm --version
 
 2. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Generate a PDF CV
+
+This repository includes a command that builds a concise CV PDF from the same data source used by the website (`src/data/*.ts`).
+
+```bash
+npm run cv:pdf
+```
+
+By default, this writes `public/cv.pdf` and keeps output compact (roughly 1-2 pages).
+
+You can customize output path and entry limits:
+
+```bash
+npm run cv:pdf -- --output public/cv-short.pdf --max-pages 2 --publications 6 --experience 6
+```
+
 ## Deploying onto GitHub Pages
 
 1. Fork or clone this repo and push to your own repository at `[your-github-username].github.io`.
