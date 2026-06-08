@@ -10,6 +10,8 @@ import { ExperienceEntry } from "@/components/experience-entry";
 import { experienceData } from "@/data/experience";
 import { PortfolioEntry } from "@/components/portfolio-entry";
 import { portfolioData } from "@/data/portfolio";
+import { ArticleEntry } from "@/components/article-entry";
+import { articleData } from "@/data/articles";
 import { sectionOrder, Section } from "@/data/section-order";
 import { grantData } from "@/data/grant";
 import { GrantEntry } from "@/components/grant-entry";
@@ -182,6 +184,21 @@ export default function Home() {
                         <div className="space-y-12">
                           {portfolioData.map((portfolio, index) => (
                             <PortfolioEntry key={index} portfolio={portfolio} />
+                          ))}
+                        </div>
+                      </section>
+                    )
+                  );
+                case Section.Articles:
+                  return (
+                    articleData.length > 0 && (
+                      <section key={sectionName}>
+                        <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
+                          Articles
+                        </h2>
+                        <div className="space-y-12">
+                          {articleData.map((article, index) => (
+                            <ArticleEntry key={index} article={article} />
                           ))}
                         </div>
                       </section>
